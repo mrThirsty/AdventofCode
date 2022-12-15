@@ -1,4 +1,4 @@
-namespace DayTwo;
+namespace AOC2022.Enums;
 
 public enum RoundResult
 {

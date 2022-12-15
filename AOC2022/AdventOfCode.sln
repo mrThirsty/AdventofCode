@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC2022", "AOC2022\AOC2022.csproj", "{395D1345-D3E5-4A36-AE66-B72C086B55DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC2022.Library", "AOC2022.Library\AOC2022.Library.csproj", "{979B1C37-8414-46AA-B119-78A92F791930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{395D1345-D3E5-4A36-AE66-B72C086B55DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395D1345-D3E5-4A36-AE66-B72C086B55DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395D1345-D3E5-4A36-AE66-B72C086B55DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395D1345-D3E5-4A36-AE66-B72C086B55DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979B1C37-8414-46AA-B119-78A92F791930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979B1C37-8414-46AA-B119-78A92F791930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979B1C37-8414-46AA-B119-78A92F791930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979B1C37-8414-46AA-B119-78A92F791930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
