@@ -1,4 +1,5 @@
 ﻿using AOC2022.DayOne;
+using AOC2022.DayThree;
 using AOC2022.DayTwo;
 using AOC2022.Library.Interfaces;
 using AOC2022.Library.Tools;
@@ -13,24 +14,27 @@ try
     while (run)
     {
         string choice = Menu();
-
-        switch (choice.ToLower()) 
+        IPuzzle puzzle = null;
+        
+        switch (choice.ToLower())
         {
             case "a":
-                IPuzzle dayOnePuzzle = new DayOneHandler();
-                await dayOnePuzzle.ExecutePuzzle(token);
+                puzzle = new DayOneHandler();
                 break;
             case "b":
-                IPuzzle dayTwoPuzzle = new DayTwoHandler();
-                await dayTwoPuzzle.ExecutePuzzle(token);
+                puzzle = new DayTwoHandler();
                 break;
             case "c":
+                puzzle = new DayThreeHandler();
                 break;
             case "0":
                 run = false;
                 tokenSource.Cancel();
                 break;
         }
+
+        if (run && puzzle is not null)
+            await puzzle.ExecutePuzzle(token);
     }
 }
 catch (Exception ex)
