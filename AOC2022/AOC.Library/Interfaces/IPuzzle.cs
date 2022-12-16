@@ -1,4 +1,4 @@
-namespace AOC2022.Library.Interfaces;
+namespace AOC.Library.Interfaces;
 
 public interface IPuzzle
 {

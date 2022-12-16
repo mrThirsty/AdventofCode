@@ -1,4 +1,4 @@
-namespace AOC2022.Library.Tools;
+namespace AOC.Library.Tools;
 
 public static class ConsoleLogger
 {

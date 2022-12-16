@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AOC2022.Library\AOC2022.Library.csproj" />
+      <ProjectReference Include="..\AOC.Library\AOC.Library.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -16,6 +16,9 @@
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="DayThree\input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="DayFour\input.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

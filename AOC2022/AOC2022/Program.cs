@@ -1,8 +1,9 @@
 ﻿using AOC2022.DayOne;
 using AOC2022.DayThree;
 using AOC2022.DayTwo;
-using AOC2022.Library.Interfaces;
-using AOC2022.Library.Tools;
+using AOC.Library.Interfaces;
+using AOC.Library.Tools;
+using AOC2022.DayFour;
 
 try
 {
@@ -26,6 +27,9 @@ try
                 break;
             case "c":
                 puzzle = new DayThreeHandler();
+                break;
+            case "d":
+                puzzle = new DayFourHandler();
                 break;
             case "0":
                 run = false;

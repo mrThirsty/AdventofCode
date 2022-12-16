@@ -1,6 +1,6 @@
 using System.Reflection.Metadata;
-using AOC2022.Library.Interfaces;
-using AOC2022.Library.Tools;
+using AOC.Library.Interfaces;
+using AOC.Library.Tools;
 using AOC2022.Model;
 
 namespace AOC2022.DayThree;
