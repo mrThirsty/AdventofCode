@@ -3,7 +3,9 @@ using AOC2022.DayThree;
 using AOC2022.DayTwo;
 using AOC.Library.Interfaces;
 using AOC.Library.Tools;
+using AOC2022.DayFive;
 using AOC2022.DayFour;
+using AOC2022.DaySix;
 
 try
 {
@@ -30,6 +32,12 @@ try
                 break;
             case "d":
                 puzzle = new DayFourHandler();
+                break;
+            case "e":
+                puzzle = new DayFiveHandler();
+                break;
+            case "f":
+                puzzle = new DaySixHandler();
                 break;
             case "0":
                 run = false;
